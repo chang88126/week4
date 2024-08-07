@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+
+    <div class="container mt-40 bg-black"></div>
+    <nav class="navbar bg-primary">
+      <div class="container navbar-wrap">
+        <a class="navbar-logo" href="#">
+          <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/logo-white.png?raw=true" alt="logo">
+        </a>
+        <ul class="navbar-nav">
+          <li class="navbar-item"><a class="navbar-link" href="#">系列鏡框</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#">門市據點</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#">部落格</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#">常見問題</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
